@@ -27,5 +27,6 @@ Shown below is waht is displayed on the console when the application is ran:
 ![image](https://user-images.githubusercontent.com/69585981/126046524-d0149026-50af-466e-bf39-370978360d83.png)
 
 ## Project Rubric
-[Project Rubric.xlsx](https://github.com/ao2-yekeen/Udacity-Capstone/files/6835157/Project.Rubric.xlsx)
+[Project.Rubric.xlsx](https://github.com/ao2-yekeen/Udacity-Capstone/files/6836621/Project.Rubric.xlsx)
+
 
