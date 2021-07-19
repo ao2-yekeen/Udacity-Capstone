@@ -29,4 +29,43 @@ Shown below is waht is displayed on the console when the application is ran:
 ## Project Rubric
 [Project.Rubric.xlsx](https://github.com/ao2-yekeen/Udacity-Capstone/files/6836621/Project.Rubric.xlsx)
 
+## Code Structure:
+Notepad.pro is a file that controls fow the project is going to be built and deployed.
+## Notepad.h
+Notepad.h contains the class Notepad which contains functions:
+  void on_actionAbout_Notepad_triggered() 
 
+    void on_actionNew_triggered();
+
+    void on_actionOpen_triggered();
+    void on_actionOpen_triggered(std::shared_ptr<Ui::Notepad> ui); //Function Overloading
+    void on_actionSave_triggered();
+
+    void on_actionSave_as_triggered();
+
+    void on_actionCut_triggered();
+
+    void on_actionCopy_triggered();
+
+    void on_actionPaste_triggered();
+
+    void on_actionRedo_triggered();
+
+    void on_actionUndo_triggered();
+
+Each triggered when the user clicks the icon corresponding to the function names.
+Notepad class controls everything on the main window.
+The class Thread allows for multithreading in the application.
+
+## main.cpp
+QApplication a(argc, argv) is an instance of an application.
+The main returns a.exec() which is necessary for the application to be executed.
+
+## Notepad.ui
+It contains an XML file that describes the user Interface  of the application
+
+## Icons
+This folder contains the icons used in the application
+
+## Resource.qrc
+This file manages the icons folder
